@@ -9512,6 +9512,7 @@ fieldset:disabled .btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 50pc;
 }
 .slick-track:after,
 .slick-track:before {

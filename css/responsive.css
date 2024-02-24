@@ -29,6 +29,7 @@
     h6 {
         font-size: 16px;
     }
+ 
 
 }
 
@@ -90,15 +91,90 @@
     }
     p {
         font-size: 14px;
+    
     }
 
 }
+
+
+@media (min-width: 1280px) and (max-width: 1690px){
+    .cocu{
+        height: 80pc !important;
+    }
+    .cent-sl{
+        padding-top: 2px !important;
+    }
+    .lineanote{
+        width: 10px !important;
+    }
+    .note{
+        margin-top: 0;
+        padding-left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        flex-direction: row !important;
+        align-items: center;
+        width: 29pc;
+        margin-left: 20px;
+        margin-top: -33px !important;
+    }
+}
+
+
+
 @media (max-width: 767px){
     .mov-mas{
         margin-top: 30px;
     }
+    .esp{
+        margin-top: -16pc !important;
+    }
+    .cocu{
+        height: 57pc !important;
+        position: relative !important;
+        bottom: 0px !important;
+        width: 100% !important;
+        border-radius: 12px;
+        right: 0px !important;
+    }
+    .mov-seccion2{
+        padding-top: 5pc !important;
+       
+    }
+    .mov-cocina{
+        display: flex !important;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+    .logo-footer{
+        width: 340px !important;
+    }
+    .logo-qubo{
+        margin: 0 auto !important;
+        width: 200px !important;
+    }
+    .center-text{
+        text-align: center;
+    }
+    .li-ubi{
+        margin-left: 173px !important;
+    }
     .ltn__slide-item-9{
         max-height: 999pc !important;
         height: 159vh !important;
+    }
+    .havs{
+        width: 100% !important;
+    }
+    .acomodo-text{
+        width: 100% !important;
+    }
+    .mov-items{
+        padding-left: 78px !important;
     }
 }
